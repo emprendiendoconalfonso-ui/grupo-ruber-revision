@@ -1,0 +1,18 @@
+GRUPO RUBER V3.1 — PAQUETE COMPLETO
+
+IMPORTANTE PARA PROBARLO EN TU COMPUTADORA:
+1. Extrae TODO el archivo ZIP.
+2. Entra a la carpeta grupo-ruber-v3.1.
+3. Abre index.html desde esa carpeta.
+4. No saques index.html de la carpeta: las imágenes, logos y PDFs se cargan mediante rutas relativas.
+
+Este paquete incluye:
+- index.html
+- assets/img/ (logo e imágenes del sitio)
+- assets/marcas/ (logos de marcas)
+- catalogos/ (10 PDFs)
+
+Los botones “Ver PDF” funcionan únicamente cuando la carpeta catalogos permanece junto a index.html, tal como viene en este ZIP.
+
+Ajuste V3.1:
+- Botón flotante de WhatsApp elevado para no tapar los iconos de correo, Facebook y LinkedIn del footer.
