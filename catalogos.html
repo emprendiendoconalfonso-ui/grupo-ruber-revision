@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GRUPO RUBER, Comercializadora Mexicana. Soluciones de abastecimiento para empresas e instituciones, con amplio portafolio, precios por volumen y envíos a todo México.">
+<meta name="description" content="Consulta los catálogos originales de Grupo Ruber. Compra mínima de $200,000 MXN por marca. Solicita una cotización para tu empresa o institución.">
 <meta name="theme-color" content="#102A43">
-<title>GRUPO RUBER | Comercializadora Mexicana</title>
+<title>Catálogos | GRUPO RUBER</title>
 <style>
 
 :root{
@@ -169,81 +169,33 @@ h2{font-size:clamp(1.9rem,3.2vw,2.75rem);line-height:1.12;letter-spacing:-.035em
 <a class="skip-link" href="#contenido">Ir al contenido</a>
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="#inicio" aria-label="GRUPO RUBER - Inicio"><img src="assets/img/logo-grupo-ruber.png" alt="GRUPO RUBER Comercializadora Mexicana"></a>
+    <a class="brand" href="index.html#inicio" aria-label="GRUPO RUBER - Inicio"><img src="assets/img/logo-grupo-ruber.png" alt="GRUPO RUBER Comercializadora Mexicana"></a>
     <button class="menu-btn" id="menuBtn" aria-controls="navLinks" aria-label="Abrir menú" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <nav class="nav-links" id="navLinks">
-      <a href="#categorias">Categorías</a><a href="#clientes">A quién atendemos</a><a href="#marcas">Marcas</a><a href="catalogos.html">Catálogos</a><a href="#contacto">Contacto</a>
-      <a class="btn btn-primary nav-cta" href="#contacto">Solicitar cotización</a>
+      <a href="index.html#categorias">Categorías</a><a href="index.html#clientes">A quién atendemos</a><a href="index.html#marcas">Marcas</a><a href="catalogos.html" aria-current="page">Catálogos</a><a href="index.html#contacto">Contacto</a>
+      <a class="btn btn-primary nav-cta" href="index.html#contacto">Solicitar cotización</a>
     </nav>
   </div>
 </header>
 <main id="contenido">
-<section class="hero" id="inicio">
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <div class="hero-identity"><img class="hero-logo" src="assets/img/logo-grupo-ruber.png" alt="GRUPO RUBER · Comercializadora Mexicana" fetchpriority="high"></div>
-      <h1>Soluciones de abastecimiento para empresas e instituciones</h1>
-      <p>Integramos productos, marcas y categorías en una sola solución de compra</p>
-      <div class="hero-actions"><a class="btn btn-primary" href="#contacto">Solicitar cotización</a><a class="btn btn-light" href="catalogos.html">Ver catálogos</a></div>
-    </div>
-    <div class="hero-media"><img class="hero-photo" src="assets/img/portafolio-productos.webp" alt="Productos del portafolio de Grupo Ruber" fetchpriority="high"></div>
-  </div>
-  <div class="container"><p class="trust-line">Amplio portafolio <span aria-hidden="true">·</span> Marcas reconocidas <span aria-hidden="true">·</span> Cobertura nacional <span aria-hidden="true">·</span> Precios por volumen</p></div>
-</section>
-<section class="section" id="marcas">
+<section class="section catalog-page" id="catalogos">
   <div class="container">
-    <div class="section-head reveal"><h2>Portafolio de marcas</h2><p>Marcas presentes en nuestro portafolio mediante relaciones y alianzas comerciales.</p></div>
-    <div class="brand-grid">
-      <div class="brand-card reveal"><img loading="lazy" src="assets/marcas/oster.jpg" alt="Oster"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/prodesa.jpg" alt="Prodesa"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/santa-anita.jpg" alt="Santa Anita"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/tramontina.jpg" alt="Tramontina"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/vasconia.jpg" alt="Vasconia"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/cubasa.jpg" alt="Cubasa"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/ekco.jpg" alt="EKCO"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/glassia.jpg" alt="Glassia"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/cinsa.jpg" alt="CINSA"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/hamilton-beach.jpg" alt="Hamilton Beach"></div><div class="brand-card reveal"><img loading="lazy" src="assets/marcas/nochebuena.jpg" alt="Nochebuena"></div>
+    <a class="back-link" href="index.html">← Volver al inicio</a><div class="section-head"><h1>Catálogos</h1><p>Consulta los PDF originales y solicita una cotización por marca.</p></div>
+    <div class="catalog-intro"><strong>Compra mínima de $200,000 MXN por marca.</strong><br>Los catálogos se abren en PDF. El tamaño de cada archivo se indica antes de abrirlo.</div>
+    <div class="filter-row" aria-label="Filtrar catálogos"><button class="filter-btn active" data-filter="all" aria-pressed="true">Todos</button><button class="filter-btn" data-filter="cocina" aria-pressed="false">Cocina</button><button class="filter-btn" data-filter="cristaleria" aria-pressed="false">Cristalería y vajillas</button><button class="filter-btn" data-filter="electrodomesticos" aria-pressed="false">Electrodomésticos</button><button class="filter-btn" data-filter="plasticos" aria-pressed="false">Plásticos</button><button class="filter-btn" data-filter="oficina" aria-pressed="false">Oficina y escuelas</button><button class="filter-btn" data-filter="otros" aria-pressed="false">Otros</button></div>
+    <div class="catalog-grid" id="catalogGrid">
+      <article class="catalog-card reveal" data-category="cocina"><span class="brand-pill">LAMEX</span><h3>Baterías, sartenes y ollas</h3><div class="catalog-meta">PDF original · 5.0 MB</div><div class="category-tags"><span>Cocina</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/lamex-baterias-sartenes-ollas.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20LAMEX%20del%20cat%C3%A1logo%20de%20bater%C3%ADas%2C%20sartenes%20y%20ollas." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cocina"><span class="brand-pill">CINSA</span><h3>Batería de cocina 2026</h3><div class="catalog-meta">PDF original · 14.0 MB</div><div class="category-tags"><span>Cocina</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/cinsa-bateria-cocina-2026.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20CINSA%202026." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cristaleria"><span class="brand-pill">GLASSIA</span><h3>Cristalería 2026</h3><div class="catalog-meta">PDF original · 7.2 MB</div><div class="category-tags"><span>Cristalería</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/glassia-cristaleria-2026.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20GLASSIA%202026." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="otros"><span class="brand-pill">IDEAL</span><h3>Galvanizados</h3><div class="catalog-meta">PDF original · 0.9 MB</div><div class="category-tags"><span>Galvanizados</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/ideal-galvanizados.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20galvanizados%20IDEAL." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cocina"><span class="brand-pill">IDEAL</span><h3>Utensilios de panadería</h3><div class="catalog-meta">PDF original · 2.7 MB</div><div class="category-tags"><span>Panadería</span><span>Utensilios</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/ideal-utensilios-panaderia.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20utensilios%20de%20panader%C3%ADa%20IDEAL." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cocina"><span class="brand-pill">LAMEX</span><h3>Batería de aluminio para cocina</h3><div class="catalog-meta">PDF original · 2.3 MB</div><div class="category-tags"><span>Cocina</span><span>Aluminio</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/lamex-bateria-aluminio-cocina.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20la%20bater%C3%ADa%20de%20aluminio%20LAMEX." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cristaleria"><span class="brand-pill">SANTA ANITA</span><h3>Vajillas y cristalería 2026</h3><div class="catalog-meta">PDF original · 6.1 MB</div><div class="category-tags"><span>Vajillas</span><span>Cristalería</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/santa-anita-vajillas-cristaleria-2026.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20SANTA%20ANITA%202026." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="plasticos,cocina"><span class="brand-pill">VASCONIA</span><h3>Plásticos y baterías de cocina 2025</h3><div class="catalog-meta">PDF original · 16.8 MB</div><div class="category-tags"><span>Plásticos</span><span>Cocina</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/vasconia-plasticos-baterias-cocina-2025.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20VASCONIA%20del%20cat%C3%A1logo%202025." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="cristaleria"><span class="brand-pill">VITTORI</span><span class="heavy-pill">Archivo pesado</span><h3>Cristalería para el hogar 2026</h3><div class="catalog-meta">PDF original · 77.1 MB</div><div class="category-tags"><span>Cristalería</span><span>Hogar</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/vittori-cristaleria-hogar-2026.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20VITTORI%202026." target="_blank" rel="noopener">Cotizar</a></div></article>
+      <article class="catalog-card reveal" data-category="plasticos"><span class="brand-pill">VARIOS</span><span class="heavy-pill">Archivo pesado</span><h3>Plásticos para el hogar</h3><div class="catalog-meta">PDF original · 69.6 MB</div><div class="category-tags"><span>Plásticos</span><span>Hogar</span></div><div class="catalog-actions"><a class="open-pdf" href="catalogos/plasticos-hogar.pdf" target="_blank" rel="noopener">Ver PDF</a><a class="quote-link" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20me%20interesa%20cotizar%20productos%20del%20cat%C3%A1logo%20de%20pl%C3%A1sticos%20para%20el%20hogar." target="_blank" rel="noopener">Cotizar</a></div></article>
     </div>
-    <p class="brand-note">La disponibilidad de marcas y productos puede variar según categoría, volumen y proyecto.</p>
-  </div>
-</section>
-<section class="section alt" id="categorias"><div class="container portfolio-grid">
-<img class="portfolio-photo" src="assets/img/portafolio-marcas.webp" loading="lazy" alt="Selección de productos y marcas del portafolio comercial de Grupo Ruber">
-<div class="portfolio-copy"><h2>Categorías</h2><ul class="category-list">
-<li>Cocina</li><li>Cristalería y vajillas</li><li>Electrodomésticos</li><li>Plásticos</li><li>Oficina y escuelas</li><li>Otros</li>
-</ul></div></div></section>
-<section class="section" id="clientes">
-  <div class="container">
-    <div class="section-head reveal"><h2>¿A quién atendemos?</h2></div>
-    <div class="audience-grid">
-      <article class="audience-card reveal"><span>01</span><h3>Empresas</h3><p>Compras corporativas, equipamiento, promociones y necesidades recurrentes.</p></article>
-      <article class="audience-card reveal"><span>02</span><h3>Hoteles y restaurantes</h3><p>Cocina, cristalería, vajillas, utensilios y equipamiento.</p></article>
-      <article class="audience-card reveal"><span>03</span><h3>Gobierno e instituciones</h3><p>Atención de requerimientos, programas, proyectos y compras por volumen.</p></article>
-      <article class="audience-card reveal"><span>04</span><h3>Distribuidores</h3><p>Condiciones comerciales para compras recurrentes y volumen.</p></article>
-      <article class="audience-card reveal"><span>05</span><h3>Proyectos especiales</h3><p>Integración de diferentes productos dentro de una misma solución.</p></article>
-    </div>
-  </div>
-</section>
-<section class="section catalog-teaser" id="catalogos"><div class="container catalog-teaser-inner"><div><h2>Catálogos</h2><p>Compra mínima de <strong>$200,000 MXN por marca.</strong></p></div><a class="btn btn-primary" href="catalogos.html">Ver todos los catálogos</a></div></section>
-<section class="section sourcing" id="buscamos"><div class="container sourcing-inner"><h2>¿No encuentras lo que buscas?<br><span>Nosotros lo buscamos por ti.</span></h2><div><p>Nuestro portafolio no se limita a los productos publicados. Cuéntanos qué necesitas y nuestro equipo comercial buscará alternativas para tu proyecto.</p><a class="btn btn-light" href="https://wa.me/529931161621?text=Hola%20GRUPO%20RUBER%2C%20no%20encontr%C3%A9%20el%20producto%20que%20busco%20en%20los%20cat%C3%A1logos%20y%20quisiera%20consultar%20otras%20opciones." target="_blank" rel="noopener">Cuéntanos qué necesitas</a></div></div></section>
-<section class="section contact-section" id="contacto">
-  <div class="container">
-    <div class="contact-head reveal"><h2>Cotiza con nosotros.</h2><p>Atención directa por WhatsApp o correo. Compra mínima de <strong>$200,000 MXN por marca.</strong></p></div>
-    <div class="contact-grid">
-      <aside class="contact-card reveal">
-        <h3>Contacto comercial</h3><p>Bernardo Iduarte Mollinedo · Director Comercial</p>
-        <a class="contact-method" href="https://wa.me/529931161621?text=Hola%20Bernardo%2C%20visito%20la%20p%C3%A1gina%20de%20GRUPO%20RUBER%20y%20quiero%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5z"/><path d="M8.5 8.5c1 3 2.5 4.5 5.5 5.5"/></svg></span><span><small>WhatsApp / Celular</small><strong>9931-161621</strong></span></a>
-        <a class="contact-method" href="mailto:bernardo.iduarte@gruporuber.com.mx?subject=Solicitud%20de%20cotizaci%C3%B3n%20-%20GRUPO%20RUBER"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 7l9 7 9-7"/></svg></span><span><small>Correo institucional</small><strong>bernardo.iduarte@gruporuber.com.mx</strong></span></a>
-        <div class="contact-method"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></span><span><small>Cobertura</small><strong>Envíos a todo México</strong></span></div>
-        <div class="socials"><a class="social" href="https://www.facebook.com/profile.php?id=61593638462022" target="_blank" rel="noopener" aria-label="Facebook de GRUPO RUBER"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v8h4v-8h3l1-4h-4V9c0-.7.3-1 1-1z"/></svg></a><a class="social" href="https://www.linkedin.com/company/grupo-ruber-comercializadora/" target="_blank" rel="noopener" aria-label="LinkedIn de GRUPO RUBER"><svg viewBox="0 0 24 24"><path d="M5 8.5H1.8V19H5V8.5zM3.4 3A1.9 1.9 0 1 0 3.4 6.8 1.9 1.9 0 0 0 3.4 3zM10 8.5H7V19h3.2v-5.2c0-1.4.3-2.8 2.1-2.8 1.8 0 1.8 1.7 1.8 2.9V19h3.2v-5.8c0-2.9-.6-5-3.9-5-1.6 0-2.6.9-3.1 1.7H10V8.5z"/></svg></a></div>
-      </aside>
-      <form class="email-form reveal" id="emailForm">
-        <h3>Solicitar cotización por correo</h3><p>Completa los datos y abriremos tu aplicación de correo con la solicitud preparada para enviar.</p>
-        <div class="form-grid">
-          <div class="field"><label for="nombre">Nombre *</label><input id="nombre" name="nombre" required placeholder="Tu nombre"></div>
-          <div class="field"><label for="empresa">Empresa / Institución *</label><input id="empresa" name="empresa" required placeholder="Nombre de la organización"></div>
-          <div class="field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" placeholder="Teléfono de contacto"></div>
-          <div class="field"><label for="correo">Correo *</label><input id="correo" name="correo" type="email" required placeholder="tu@empresa.com"></div>
-          <div class="field"><label for="producto">Producto que necesita *</label><input id="producto" name="producto" required placeholder="Describe el producto o categoría"></div>
-          <div class="field"><label for="cantidad">Cantidad aproximada</label><input id="cantidad" name="cantidad" placeholder="Ej. 100 piezas"></div>
-          <div class="field full"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" placeholder="Especificaciones, marcas de referencia, proyecto, etc."></textarea></div>
-        </div>
-        <div class="form-footer"><small>Este formulario no carga archivos. Para enviar Excel, PDF, requisiciones, fichas técnicas o fotografías, utiliza WhatsApp.</small><button class="btn btn-primary" type="submit">Preparar correo</button></div>
-        <div class="email-fallback">También puedes escribir directamente a <a href="mailto:bernardo.iduarte@gruporuber.com.mx">bernardo.iduarte@gruporuber.com.mx</a>.</div>
-      </form>
-    </div>
+    <div class="empty-state" id="emptyState" role="status">Aún no hay catálogos publicados en esta categoría. <a href="index.html#contacto">Cuéntanos qué necesitas y lo buscamos por ti.</a></div>
   </div>
 </section>
 </main>
